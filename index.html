@@ -30,12 +30,19 @@
   .date { color: var(--muted); font-size: .9rem; white-space: nowrap; }
   .project b { display: block; }
   .foot { margin-top: 3rem; font-size: .85rem; color: var(--muted); }
+  .hero { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+  .hero img { width: 128px; height: 128px; border-radius: 50%; flex-shrink: 0; }
 </style>
 </head>
 <body>
 
-<h1>Kevin Kakolla</h1>
-<p class="tagline">Senior AI Engineer — ML · GenAI · Agentic systems</p>
+<div class="hero">
+  <img src="photo.jpg" alt="Kevin Kakolla">
+  <div>
+    <h1>Kevin Kakolla</h1>
+    <p class="tagline">Senior AI Engineer — ML · GenAI · Agentic systems</p>
+  </div>
+</div>
 <div class="links">
   <a href="https://github.com/torontodeveloper">GitHub</a>
   <a href="https://huggingface.co/torontodeveloper">HuggingFace</a>
